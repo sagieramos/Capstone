@@ -52,7 +52,7 @@ body {
   --hamburger-height: calc(var(--bar-height) * 3 + var(--hamburger-gap) * 2);
 }
 
-.logo {
+.logo-free {
   color: var(--c-red);
   font-weight: 800;
 }
