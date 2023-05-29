@@ -16,7 +16,7 @@
   color: var(--c-black);
 }
 .main-header {
-  background-color: rgb(255, 255, 255, 0.8);
+  background-image: url(../assets/mobile-bg.png);
   width: 100%;
   padding: 100px var(--floor-width-padding);
   display: flex;
@@ -145,13 +145,13 @@
 }
 
 .program {
+  background-color: rgb(255, 255, 255, 0.1);
   flex: 1;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
   gap: 12px;
-  background-color: rgb(255, 255, 255, 0.1);
   padding: 24px;
 }
 
@@ -185,6 +185,22 @@
   flex-direction: column;
   align-items: flex-start;
   gap: 28px;
+}
+
+.feature {
+  flex: 1;
+}
+
+.speaker-img {
+  flex: 2;
+}
+
+.speaker-hero {
+  flex: 4;
+}
+
+.speaker-paragraph {
+  flex: 8;
 }
 
 .footer-first-section {

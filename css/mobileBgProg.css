@@ -1,5 +1,5 @@
 .program-hero {
-  background: linear-gradient(90deg, #161122 21px, transparent 1%) center, linear-gradient(#161122 21px, transparent 1%) center, #a799cc;
-  background-size: 22px 22px; }
-
-/*# sourceMappingURL=bg.css.map */
+  background-color: var(--c-black);
+  background-image: url(../assets/cross.svg);
+  
+}
