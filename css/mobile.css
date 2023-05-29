@@ -17,6 +17,7 @@
 }
 .main-header {
   background-image: url(../assets/mobile-bg.png);
+  background-size: contain;
   width: 100%;
   padding: 100px var(--floor-width-padding);
   display: flex;
