@@ -14,7 +14,7 @@
   }
   
   .hamburger-menu:has(input:checked) {
-    --foreground: white;
+    --foreground: #ec5242;
     --background: #333;
   }
   
@@ -69,13 +69,13 @@
       transform: translateY(-100%);
       padding: 0.5rem 1rem;
       padding-top: calc(var(--hamburger-height) + var(--hamburger-margin) + 1rem);
-      background-color: var(--c-gray);
+      background-color: #fff;
       color: var(--background);
       width: 100%;
-      min-height: 30%;
+      max-height: 65%;
       overflow-x: auto;
       position: absolute;
-      top: 0;
+      top: -2px;
       left: 0;
     }
   
