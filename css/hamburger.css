@@ -69,10 +69,14 @@
       transform: translateY(-100%);
       padding: 0.5rem 1rem;
       padding-top: calc(var(--hamburger-height) + var(--hamburger-margin) + 1rem);
-      background-color: var(--foreground);
+      background-color: var(--c-gray);
       color: var(--background);
-      max-width: 100%;
+      width: 100%;
       min-height: 30%;
+      overflow-x: auto;
+      position: absolute;
+      top: 0;
+      left: 0;
     }
   
   .hamburger-menu:has(input:checked) + .sidebar {

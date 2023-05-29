@@ -1,0 +1,24 @@
+.header {
+  background-image: url(../assets/bg/mobileBg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+.main-header {
+  background-color: rgb(255, 255, 255, 0.8);
+  width: 100%;
+  padding: 100px var(--floor-width-padding);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.logo {
+  position: absolute;
+  top: var(--hamburger-margin);
+  right: var(--hamburger-margin);
+}
