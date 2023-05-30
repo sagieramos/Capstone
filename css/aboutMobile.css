@@ -3,7 +3,6 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
-  font-size: 12px;
 }
 
 .greetings {
@@ -36,16 +35,16 @@ main {
 .tour-img-22 {
   background-color: var(--c-red);
   background-image: url(../assets/tour/lekki.jpg);
-  height: 130px;
-  width: 260px;
+  height: 190px;
+  width: 380px;
   background-size: cover;
 }
 
 .tour-img-21 {
   background-color: var(--c-red);
   background-image: url(../assets/tour/obudu.jpeg);
-  height: 130px;
-  width: 260px;
+  height: 190px;
+  width: 380px;
   background-size: cover;
 }
 
@@ -65,14 +64,12 @@ main {
   flex-direction: column;
   align-items: center;
   gap: 10px;
-  max-width: 260px;
+  max-width: 380px;
 }
 
 .about-line {
-  font-size: 16px;
   font-weight: 400;
-  line-height: 1.5;
-  max-width: 220px;
+  max-width: 380px;
 }
 
 .about-line::after {
@@ -90,28 +87,14 @@ main {
     border: 1px solid var(--c-gray);
 }
 
-.ccc h2 {
-    font-size: 20px;
-    line-height: 1;
-}
 
 .ccc p {
-    font-size: 8px;
     border-top: 1px solid var(--c-gray);
     border-bottom: 1px solid var(--c-gray);
     width: fit-content;
     margin: 0 auto;
+    font-size: 11px;
 }
 .ccc {
     max-width: 150px;
-}
-
-.th {
-    font-size: 14px;
-    font-weight: 500;
-    color: var(--c-black)
-}
-
-.tp {
-    font-size: 9px
 }
