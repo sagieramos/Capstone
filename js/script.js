@@ -1,5 +1,59 @@
-// Get the necessary elements
+
+invitedGuest = [
+  {
+    dp: './assets/speekers/IMG-0235.JPG',
+    name: 'Dorcas Charlse',
+    title: 'Doctor, Surgion at Meritime Hospital', 
+    about: 'lorhishsh jaisoao aosaoao'
+  },
+  {
+    dp: './assets/speekers/IMG-0235.JPG',
+    name: 'Dorcas Charlse',
+    title: 'Doctor, Surgion at Meritime Hospital', 
+    about: 'lorhishsh jaisoao aosaoao'
+  },
+  {
+    dp: './assets/speekers/IMG-0235.JPG',
+    name: 'Dorcas Charlse',
+    title: 'Doctor, Surgion at Meritime Hospital', 
+    about: 'lorhishsh jaisoao aosaoao'
+  }, 
+  {
+    dp: './assets/speekers/IMG-0235.JPG',
+    name: 'Dorcas Charlse',
+    title: 'Doctor, Surgion at Meritime Hospital', 
+    about: 'lorhishsh jaisoao aosaoao'
+  }
+]
+
+
+// Get the features container element
 const featuresContainer = document.querySelector('.features');
+
+// Loop through the featureData array
+invitedGuest.forEach((invitedGuest) => {
+  // Create the feature element
+  const featureElement = document.createElement('li');
+  featureElement.classList.add('feature');
+
+  // Build the HTML content for the feature
+  featureElement.innerHTML = `
+    <span class="dp">
+      <img class="speaker-img" src="${invitedGuest.dp}" alt="speaker">
+    </span>
+    <span class="speaker-details">
+      <div class="speaker">
+        <h3 class="speaker-name">${invitedGuest.name}</h3>
+        <p class="speaker-title">${invitedGuest.title}</p>
+      </div>
+      <p class="speaker-paragraph">${invitedGuest.about}</p>
+    </span>
+  `;
+
+  // Append the feature element to the features container
+  featuresContainer.appendChild(featureElement);
+});
+
 const moreLessButton = document.querySelector('.more-less');
 
 // Define the number of initially visible features and the toggle state

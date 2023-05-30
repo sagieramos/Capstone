@@ -10,6 +10,10 @@
   margin-bottom: 8px;
 }
 
+.contact {
+  margin: 0 auto;
+}
+
 .contact p {
   line-height: 1.5;
   color: var(--c-black);
@@ -82,19 +86,19 @@ main {
 }
 
 .cc {
-    padding: 24px 48px;
-    border-width: 0.5px;
-    border: 1px solid var(--c-gray);
+  padding: 24px 48px;
+  border-width: 0.5px;
+  border: 1px solid var(--c-gray);
 }
-
 
 .ccc p {
-    border-top: 1px solid var(--c-gray);
-    border-bottom: 1px solid var(--c-gray);
-    width: fit-content;
-    margin: 0 auto;
-    font-size: 11px;
+  border-top: 1px solid var(--c-gray);
+  border-bottom: 1px solid var(--c-gray);
+  width: fit-content;
+  margin: 0 auto;
+  font-size: 11px;
 }
+
 .ccc {
-    max-width: 150px;
+  max-width: 150px;
 }
