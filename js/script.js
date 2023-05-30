@@ -21,9 +21,9 @@ function toggleFeaturesVisibility() {
 
   // Toggle the text of the more/less button
   if (isExpanded) {
-    moreLessButton.textContent = 'MORE';
-  } else {
     moreLessButton.textContent = 'LESS';
+  } else {
+    moreLessButton.textContent = 'MORE';
   }
 
   // Update the toggle state

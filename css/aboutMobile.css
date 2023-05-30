@@ -1,0 +1,21 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 12px;
+  }
+
+  .greetings {
+    margin: 0 auto;
+  }
+
+  .contact p {
+    line-height: 1.5;
+    color: var(--c-black);
+    margin-bottom: 10px;
+  }
+
+  main {
+    padding: var(--floor-padding);
+  }
