@@ -65,6 +65,7 @@ main {
   flex-direction: column;
   align-items: center;
   gap: 10px;
+  max-width: 260px;
 }
 
 .about-line {
@@ -81,4 +82,36 @@ main {
   width: 18px;
   background-color: var(--c-red);
   margin: 8px auto auto auto;
+}
+
+.cc {
+    padding: 24px 48px;
+    border-width: 0.5px;
+    border: 1px solid var(--c-gray);
+}
+
+.ccc h2 {
+    font-size: 20px;
+    line-height: 1;
+}
+
+.ccc p {
+    font-size: 8px;
+    border-top: 1px solid var(--c-gray);
+    border-bottom: 1px solid var(--c-gray);
+    width: fit-content;
+    margin: 0 auto;
+}
+.ccc {
+    max-width: 150px;
+}
+
+.th {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--c-black)
+}
+
+.tp {
+    font-size: 9px
 }

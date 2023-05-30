@@ -217,7 +217,7 @@
   flex-direction: column;
   align-items: center;
   gap: 38px;
-  padding: 48px var(--floor-width-padding);
+  padding: 20px var(--floor-width-padding);
 }
 
 .sponsors {
@@ -246,14 +246,14 @@
   flex: 4;
 }
 
-.footer-section-section {
+.footer-section {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  gap: 48px;
-  padding: 48px var(--floor-width-padding);
-  max-width: 480px;
+  gap: 24px;
+  padding: 24px var(--floor-width-padding);
+  max-width: 280px;
   margin: 0 auto;
 }
 
@@ -284,4 +284,14 @@
 
 .more-less:hover {
   background-color: #ccc;
+}
+
+.speaker-img {
+  border-radius: 50%;
+  object-fit: contain; 
+}
+
+.sm-txt {
+  font-size: 10px;
+  line-height: 1.5;
 }
