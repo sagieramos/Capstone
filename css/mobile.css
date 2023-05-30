@@ -7,15 +7,17 @@
 
 .header {
   background-image: url(../assets/mobile-bg.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-position-x: center;
+  background-position-y: 40%;
+  background-repeat: repeat;
+  background-size: contain;
   padding-top: 40px;
 }
 
 .c-black {
   color: var(--c-black);
 }
+
 .main-header {
   width: 100%;
   padding: 20px var(--floor-width-padding);
@@ -32,7 +34,6 @@
   right: var(--hamburger-margin);
 }
 
-
 .drop-menu {
   width: 100%;
   display: flex;
@@ -48,7 +49,7 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  gap: 0px;
+  gap: 0;
   padding-right: 40px;
 }
 
@@ -56,7 +57,6 @@
   width: 100%;
   border-bottom: 1px solid var(--c-gray);
   padding: 20px;
-  
 }
 
 .menu-list a {
@@ -98,7 +98,7 @@
   font-weight: 900;
   background-image: url(../assets/bg/text.png);
   background-size: cover;
-  background-clip: text;
+  background-clip: border-box;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
@@ -132,13 +132,8 @@
   gap: 12px;
 }
 
-
 .material-symbols-outlined {
   flex: 2;
-}
-
-.program-header {
-  flex: 4;
 }
 
 .program-paragraph {
@@ -179,7 +174,6 @@
   flex-direction: column;
   gap: 28px;
   align-items: center;
-  color: var(--c-black);
   padding: 48px var(--floor-width-padding);
 }
 
@@ -189,9 +183,8 @@
   flex-direction: column;
   align-items: flex-start;
   gap: 28px;
-
   overflow: hidden;
-  transition: max-height 0.3s ease; 
+  transition: max-height 0.3s ease;
 }
 
 .features.expand ul {
@@ -213,8 +206,7 @@
   flex: 4;
 }
 
-.dp > img{
-  max-width: 80px;
+.dp > img {
   max-width: 80px;
 }
 
@@ -236,6 +228,7 @@
   flex-wrap: wrap;
   gap: 24px;
   padding: 0;
+  font-size: large;
 }
 
 .summit {
@@ -250,6 +243,7 @@
 .program-header {
   font-size: 12px;
   color: var(--c-red);
+  flex: 4;
 }
 
 .footer-section-section {
@@ -281,18 +275,9 @@
 }
 
 .more-less {
-  background-color: #fff;
-  border: #fff;
-}
-
-.sponsors {
-  font-size: large;
-}
-
-.more-less {
   background-color: #f0f0f0;
   color: #333;
-  border: none;
+  border: #fff;
   padding: 10px 20px;
   cursor: pointer;
 }
@@ -300,4 +285,3 @@
 .more-less:hover {
   background-color: #ccc;
 }
-

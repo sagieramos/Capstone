@@ -4,8 +4,10 @@
 body {
   font-family: 'CustomFont', sans-serif;
   font-size: 16px;
+  margin: 0 auto;
+  width: 100%;
+  overflow-x: hidden;
 }
-
 
 *,
 *::after,
@@ -17,7 +19,8 @@ body {
   margin: 0;
 }
 
-html, body {
+html,
+body {
   overflow-x: hidden;
   padding: 0%;
   margin: 0;
@@ -25,21 +28,16 @@ html, body {
 
 .material-symbols-outlined {
   font-variation-settings:
-  'FILL' 0,
-  'wght' 400,
-  'GRAD' 0,
-  'opsz' 48
-}
-body {
-  margin: 0 auto;
-  width: 100%;
-  overflow-x: hidden;
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48;
 }
 
 :root {
-  --c-black: #272A31;
+  --c-black: #272a31;
   --c-red: #ec5242;
-  --c-gray: #D3D3D3;
+  --c-gray: #d3d3d3;
   --floor-padding: 15px;
   --floor-width-padding: 15px;
   --bar-width: 35px;
