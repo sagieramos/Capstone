@@ -7,7 +7,7 @@ const invitedGuest = [
     about: `Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
     Quidem rem veniam dolor nobis nulla voluptas esse commodi repellendus, 
     ex cum. Nemo aspernatur veniam tenetur aut nulla velit est ad illum!
-    `,
+    `
   },
   {
     dp: './assets/speekers/IMG-0235.JPG',
@@ -16,7 +16,7 @@ const invitedGuest = [
     about: `Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
     Quidem rem veniam dolor nobis nulla voluptas esse commodi repellendus, 
     ex cum. Nemo aspernatur veniam tenetur aut nulla velit est ad illum!
-    `,
+    `
   },
   {
     dp: './assets/speekers/IMG-0235.JPG',
@@ -25,7 +25,7 @@ const invitedGuest = [
     about: `Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
     Quidem rem veniam dolor nobis nulla voluptas esse commodi repellendus, 
     ex cum. Nemo aspernatur veniam tenetur aut nulla velit est ad illum!
-    `,
+    `
   },
   {
     dp: './assets/speekers/IMG-0235.JPG',
@@ -34,7 +34,25 @@ const invitedGuest = [
     about: `Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
     Quidem rem veniam dolor nobis nulla voluptas esse commodi repellendus, 
     ex cum. Nemo aspernatur veniam tenetur aut nulla velit est ad illum!
-    `,
+    `
+  },
+  {
+    dp: './assets/speekers/IMG-0235.JPG',
+    name: 'Dorcas Charlse',
+    title: 'Doctor, Surgion at Meritime Hospital',
+    about: `Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+    Quidem rem veniam dolor nobis nulla voluptas esse commodi repellendus, 
+    ex cum. Nemo aspernatur veniam tenetur aut nulla velit est ad illum!
+    `
+  },
+  {
+    dp: './assets/speekers/IMG-0235.JPG',
+    name: 'Dorcas Charlse',
+    title: 'Doctor, Surgion at Meritime Hospital',
+    about: `Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+    Quidem rem veniam dolor nobis nulla voluptas esse commodi repellendus, 
+    ex cum. Nemo aspernatur veniam tenetur aut nulla velit est ad illum!
+    `
   },
 ];
 
