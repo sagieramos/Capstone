@@ -70,3 +70,18 @@ body {
   background-color: var(--c-red);
   margin: 5px auto auto auto;
 }
+
+.sm-txt {
+  font-size: 15px;
+  line-height: 1.7;
+}
+
+.mm-txt {
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.xm-txt {
+  font-size: 23px;
+  line-height: 1.5;
+}

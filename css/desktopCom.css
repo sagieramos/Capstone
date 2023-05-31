@@ -5,6 +5,83 @@
 
 .desktop-header {
   background-color: var(--c-black);
+  height: 30px;
+  padding: 5px 36px;
+  width: 100%;
+}
+
+.desktop-header img {
+  height: inherit;
+}
+
+.dh-container {
+  height: inherit;
+  padding-bottom: 10px;
+ 
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.dh-p {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  
+}
+.dh-p a {
+  color: var(--c-gray);
+}
+
+.campaign {
+  width: 100%;
+  color: var(--c-red);
+}
+
+.campaign a {
+  padding: 12px;
+  border: 3px solid var(--c-red);
+  font-weight: 400;
+}
+
+.menu a {
+  color: var(--c-black);
+}
+
+.header-intro {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
+  margin-bottom: 20px;
+}
+
+.greetings {
+  color: var(--c-red);
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.intro {
+  font-size: 60px;
+  font-weight: 900;
+  background-image: url(../assets/bg/text.png);
+  background-size: cover;
+  background-clip: border-box;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  max-width: 1200px;
+}
+
+.para {
+  font-size: 18px;
+  padding: 12px 18px;
+  background-color: #fff;
+  line-height: 1.7;
 }
 
 .shadow {
@@ -12,7 +89,7 @@
   width: 100%;
   margin: 0 auto;
   padding: 36px;
-  height: 96px;
+  height: 90px;
 }
 
 .nav-header {
@@ -38,17 +115,20 @@
 }
 
 .bg {
-  height: 80vh;
+  height: 85vh;
   background-image: url(../assets/desktop-bg-img.png);
 }
 .fr-head {
-
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
   max-width: 1440px;
   margin: 0 auto;
   padding: 36px;
   display: flex;
   flex-direction: column;
   gap: 36px;
+  height: inherit;
 }
 
 .header-intro {
@@ -83,6 +163,7 @@
 }
 
 .title-desktop {
+ 
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -101,6 +182,10 @@
   text-align: center;
 }
 
+.program-header {
+  color: var(--c-red);
+}
+
 .summit {
   display: none;
 }
@@ -108,6 +193,27 @@
 .summit-desk {
   color: #fff;
   margin: auto;
+}
+
+.speaker-details {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.speaker {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.speaker-title {
+  color: var(--c-red);
+  line-height: 1.5;
+}
+
+.speaker-paragraph {
+  line-height: 1.5;
 }
 
 .speaker-img {
@@ -126,6 +232,10 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+.features-hero {
+  padding: 36px;
 }
 
 .features {
@@ -155,12 +265,17 @@
 }
 
 .sponsors {
+  padding: 0;
   display: flex;
   flex-direction: row;
   align-items: center;
   max-width: 769px;
   gap: 24px;
   margin: 0 auto;
+}
+
+.sponsors {
+  font-size: large;
 }
 
 .footer-section {
