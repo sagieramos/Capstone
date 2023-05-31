@@ -223,10 +223,8 @@
   justify-content: space-around;
   align-items: center;
   gap: 24px;
-  padding: 24px var(--floor-width-padding);
-  max-width: 280px;
+  padding: 6px var(--floor-width-padding);
   margin: 0 auto;
-  margin-bottom: 30px;
 }
 
 .speaker-details {

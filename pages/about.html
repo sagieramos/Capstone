@@ -6,52 +6,68 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/common.css">
     <link rel="stylesheet" href="../css/aboutCommon.css">
-    <link rel="stylesheet" href="../css/mobile.css">
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="../css/mobile.css">
     <link rel="stylesheet" media="screen and (max-width: 768px)" href="../css/hamburger.css">
     <link rel="stylesheet" media="screen and (max-width: 768px)" href="../css/aboutMobile.css">
+    <link rel="stylesheet" media="screen and (min-width: 769px)" href="../css/aboutDesktopCom.css">
     <title>About Ere</title>
 </head>
 <body>
     <header class="header">
-        <section class="main-header">
-            <section class="nav-header">
-                <label class="hamburger-menu">
-                    <input type="checkbox" />
-                </label>
-                <aside class="sidebar">
-                    <nav class="drop-menu">
-                        <ul class="menu">
-                            <li class="menu-list"><a href="../index.html">Home</a></li>
-                            <li class="menu-list"><a href="#">About</a></li>
-                            <li class="menu-list"><a href="#">Program</a></li>    
-                            <li class="menu-list"><a href="#">Join</a></li> 
-                            <li class="menu-list"><a href="#">Sponsor</a></li>  
-                            <li class="menu-list"><a href="#">News</a></li>           
-                        </ul>
-                        <span class="campaign">
-                            <a>Earth Campaign</a>
-                        </span>
-                    </nav>
-                </aside>
-                <div class="logo logo-free">ERÉ</div> 
-            </section>
-
-            <section class="header-intro-about">
-                <h1 class="greetings">"Who has created these things"</h1>
-                <div class="intro">
-                    <h2>Experience Nature's Marvel In Ikogosi Warm Springs</h2>
+        <div class="desktop-header">
+            <div class="dh-container">
+                <img src="../assets/social/facebook_f_64px.png" alt="">
+                <img src="../assets/social/twitter_64px.png" alt="">
+                <div class="dh-p">
+                    <a href="#">English</a>
+                    <a href="#">My Page</a>
+                    <a href="#">Logout</a>
                 </div>
-            </section>
-            <p class="para sm-txt">
-                The Ikogosi Warm Springs is a tourist attraction located at Ikogosi, 
-                A town in Ekiti State, southwestern Nigeria. Flowing abreast the warm 
-                Springs is another cold spring which meets the warm spring at a confluence, 
-                each maintaining its thermal properties.
-            </p>
-            <section class="contact">
-                <p>Please contact us per Email for any futher questions about Ere 20203!</p>
-                <a class="email" href="mailto:sagiecyber@gmail.com">earth@ere.og</a>
-            </section>
+            </div>
+        </div>
+        <section class="main-header">
+            <div class="shadow">
+                <section class="nav-header">
+                    <label class="hamburger-menu">
+                        <input type="checkbox" />
+                    </label>
+                    <aside class="sidebar">
+                        <nav class="drop-menu">
+                            <ul class="menu">
+                                <li class="menu-list"><a href="../index.html">Home</a></li>
+                                <li class="menu-list"><a href="#">Program</a></li>    
+                                <li class="menu-list"><a href="#">Join</a></li> 
+                                <li class="menu-list"><a href="#">Sponsor</a></li>  
+                                <li class="menu-list"><a href="#">News</a></li>           
+                            </ul>
+                            <span class="campaign">
+                                <a>Earth Campaign</a>
+                            </span>
+                        </nav>
+                    </aside>
+                    <a href="../index.html" class="logo logo-free logo-font">ERÉ</a> 
+                </section>
+            </div>
+            <div class="bg">
+                <div class="fr-head">
+                    <section class="header-intro-about">
+                        <h1 class="greetings">"Who has created these things"</h1>
+                        <div class="intro">
+                            <h2>Experience Nature's Marvel In Ikogosi Warm Springs</h2>
+                        </div>
+                    </section>
+                    <p class="para sm-txt">
+                        The Ikogosi Warm Springs is a tourist attraction located at Ikogosi, 
+                        A town in Ekiti State, southwestern Nigeria. Flowing abreast the warm 
+                        Springs is another cold spring which meets the warm spring at a confluence, 
+                        each maintaining its thermal properties.
+                    </p>
+                    <section class="contact">
+                        <p>Please contact us per Email for any futher questions about Ere 20203!</p>
+                        <a class="email" href="mailto:sagiecyber@gmail.com">earth@ere.og</a>
+                    </section>
+                </div>
+            </div>
         </section>
     </header>
     <main>
@@ -96,17 +112,21 @@
     </main>
     <footer>
         <section class="footer-first-section">
-            <h2 class="line">Partner</h2>
+            <h2 class="line title-desktop">Partner</h2>
             <ul class="sponsors">
-                <li class="Sponsor"><i class="fa-solid fa-meteor"></i><p>Meteor</p></li>
-                <li class="Sponsor"><i class="fa-solid fa-meteor"></i><p>Meteor</p></li>
-                <li>NAVAR</li>
+                <li class="Sponsor">Lagos Govt.</li>
+                <li class="Sponsor">Ekiti Govt.</li>
+                <li class="Sponsor">River Govt.</li>
             </ul>
         </section>
         <div class="footer-section">
-            <h2 class="logo-free">ERÉ</h2>
+            <a href="../index.html" class="logo-free">ERÉ</a>
             <p class="sm-txt">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Lift up your eyes to heaven and see. Who has created these things? It is 
+                the One who brings out their army by number; <br>He calls them by name. 
+                Because of his vast dynamic energy and his awe-inspiring power, <br>
+                Not one of them is missing (Isaiah 40:26)<br><br>
+                Johovah Has Created All This Things!
             </p>
         </div>
     </footer>

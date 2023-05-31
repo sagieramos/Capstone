@@ -109,6 +109,3 @@ moreLessButton.addEventListener('click', toggleFeaturesVisibility);
 
 // Initially show the specified number of features
 toggleFeaturesVisibility();
-
-// Add a window resize event listener to update the visibility based on screen size changes
-window.addEventListener('resize', toggleFeaturesVisibility);

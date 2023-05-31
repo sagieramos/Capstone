@@ -1,0 +1,257 @@
+.hamburger-menu,
+.more-less {
+  display: none;
+}
+
+.desktop-header {
+  background-color: var(--c-black);
+  height: 30px;
+  padding: 5px 36px;
+  width: 100%;
+}
+
+ .para {
+    font-size: 18px;
+    padding: 12px 18px;
+    background-color: #fff;
+    line-height: 1.7;
+  }
+
+ .desktop-header img {
+    height: inherit;
+  }
+  
+  .dh-container {
+    height: inherit;
+    padding-bottom: 10px;
+   
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+  
+  .dh-p {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    
+  }
+  .dh-p a {
+    color: var(--c-gray);
+  }
+  
+
+ .campaign {
+    width: 100%;
+    color: var(--c-red);
+  }
+  
+  .campaign a {
+    padding: 12px;
+    border: 3px solid var(--c-red);
+    font-weight: 400;
+  }
+ 
+ .menu a {
+    color: var(--c-black);
+  }
+
+ .greetings {
+    color: var(--c-red);
+    font-size: 32px;
+    font-weight: 400;
+  }
+
+  .bg {
+    height: 85vh;
+    background-image: url(../assets/desktop-bg-img.png);
+  } 
+
+.intro {
+    font-size: 40px;
+    font-weight: 900;
+    background-image: url(../assets/bg/text.png);
+    background-size: cover;
+    background-clip: border-box;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    max-width: 1200px;
+  }
+
+.shadow {
+  box-shadow: 0 0 1px 0;
+  width: 100%;
+  margin: 0 auto;
+  padding: 36px;
+  height: 90px;
+}
+
+.nav-header {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.drop-menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 60px;
+}
+
+ .menu {
+  display: flex;
+  flex-direction: row;
+  gap: 36px;
+}
+
+
+.bg {
+  height: 85vh;
+  background-image: url(../assets/desktop-bg-img.png);
+}
+
+
+.fr-head {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 36px;
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+  height: inherit;
+  text-align: center;
+}
+
+main {
+  padding: var(--floor-padding);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.tour-img {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  color: #fff;
+}
+
+.tour-img-22 {
+  background-color: var(--c-red);
+  background-image: url(../assets/tour/lekki.jpg);
+  height: 190px;
+  width: 380px;
+  background-size: cover;
+}
+
+.tour-img-21 {
+  background-color: var(--c-red);
+  background-image: url(../assets/tour/obudu.jpeg);
+  height: 190px;
+  width: 380px;
+  background-size: cover;
+}
+
+.tour-overlay {
+  background-color: var(--c-red);
+  height: inherit;
+  width: inherit;
+  opacity: 0.75;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.tour {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  max-width: 380px;
+}
+
+.about-line {
+  font-weight: 500;
+  max-width: 380px;
+}
+
+.about-line::after {
+  content: "";
+  display: block;
+  height: 1px;
+  width: 32px;
+  background-color: var(--c-red);
+  margin: 8px auto auto auto;
+}
+
+.cc {
+  padding: 24px 48px;
+  box-shadow: 1px 1px 1px 1px;
+}
+
+.ccc p {
+  border-top: 1px solid var(--c-gray);
+  border-bottom: 1px solid var(--c-gray);
+  width: fit-content;
+  margin: 0 auto;
+  font-size: 11px;
+}
+
+.ccc {
+  max-width: 150px;
+}
+
+.footer-first-section {
+  background-color: var(--c-black);
+  color: var(--c-gray);
+  padding: 36px;
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+}
+
+.title-desktop {
+ 
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.sponsors {
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  max-width: 769px;
+  gap: 24px;
+  margin: 0 auto;
+  font-size: large;
+}
+
+.footer-section {
+  padding: 12px 48px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 96px;
+}
+
+
+
