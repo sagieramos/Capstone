@@ -57,3 +57,16 @@ body {
   color: var(--c-red);
   font-weight: 800;
 }
+
+.logo-font {
+  font-size: 23px;
+}
+
+.line::after {
+  content: "";
+  display: block;
+  height: 1px;
+  width: 32px;
+  background-color: var(--c-red);
+  margin: 5px auto auto auto;
+}

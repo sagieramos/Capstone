@@ -80,15 +80,14 @@ main {
   content: "";
   display: block;
   height: 1px;
-  width: 18px;
+  width: 32px;
   background-color: var(--c-red);
   margin: 8px auto auto auto;
 }
 
 .cc {
   padding: 24px 48px;
-  border-width: 0.5px;
-  border: 1px solid var(--c-gray);
+  box-shadow: 1px 1px 1px 1px;
 }
 
 .ccc p {

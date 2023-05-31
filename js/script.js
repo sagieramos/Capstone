@@ -1,28 +1,40 @@
-
+const maxWidth = 768;
 invitedGuest = [
   {
     dp: './assets/speekers/IMG-0235.JPG',
     name: 'Dorcas Charlse',
     title: 'Doctor, Surgion at Meritime Hospital', 
-    about: 'lorhishsh jaisoao aosaoao'
+    about: `Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+    Quidem rem veniam dolor nobis nulla voluptas esse commodi repellendus, 
+    ex cum. Nemo aspernatur veniam tenetur aut nulla velit est ad illum!
+    `
   },
   {
     dp: './assets/speekers/IMG-0235.JPG',
     name: 'Dorcas Charlse',
     title: 'Doctor, Surgion at Meritime Hospital', 
-    about: 'lorhishsh jaisoao aosaoao'
+    about: `Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+    Quidem rem veniam dolor nobis nulla voluptas esse commodi repellendus, 
+    ex cum. Nemo aspernatur veniam tenetur aut nulla velit est ad illum!
+    `
   },
   {
     dp: './assets/speekers/IMG-0235.JPG',
     name: 'Dorcas Charlse',
     title: 'Doctor, Surgion at Meritime Hospital', 
-    about: 'lorhishsh jaisoao aosaoao'
-  }, 
+    about: `Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+    Quidem rem veniam dolor nobis nulla voluptas esse commodi repellendus, 
+    ex cum. Nemo aspernatur veniam tenetur aut nulla velit est ad illum!
+    `
+  },
   {
     dp: './assets/speekers/IMG-0235.JPG',
     name: 'Dorcas Charlse',
     title: 'Doctor, Surgion at Meritime Hospital', 
-    about: 'lorhishsh jaisoao aosaoao'
+    about: `Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+    Quidem rem veniam dolor nobis nulla voluptas esse commodi repellendus, 
+    ex cum. Nemo aspernatur veniam tenetur aut nulla velit est ad illum!
+    `
   }
 ]
 
@@ -61,9 +73,13 @@ const initiallyVisibleFeatures = 2;
 let isExpanded = false;
 
 // Function to toggle the visibility of features
+
 function toggleFeaturesVisibility() {
   const features = Array.from(featuresContainer.querySelectorAll('.feature'));
 
+  if (window.innerWidth > maxWidth) {
+    return; // Exit the function if the screen is larger than 746px
+  }
   // Toggle the visibility of features based on the toggle state
   features.forEach((feature, index) => {
     if (isExpanded || index < initiallyVisibleFeatures) {
@@ -84,8 +100,15 @@ function toggleFeaturesVisibility() {
   isExpanded = !isExpanded;
 }
 
+// Add a window resize event listener to update the visibility based on screen size changes
+window.addEventListener('resize', toggleFeaturesVisibility);
+
+
 // Attach a click event listener to the more/less button
 moreLessButton.addEventListener('click', toggleFeaturesVisibility);
 
 // Initially show the specified number of features
 toggleFeaturesVisibility();
+
+// Add a window resize event listener to update the visibility based on screen size changes
+window.addEventListener('resize', toggleFeaturesVisibility);
