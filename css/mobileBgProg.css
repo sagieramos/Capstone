@@ -1,0 +1,4 @@
+.program-hero {
+  background-color: var(--c-black);
+  background-image: url(../assets/cross.svg);
+}

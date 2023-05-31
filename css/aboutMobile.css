@@ -1,0 +1,103 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.greetings {
+  margin: 0 auto;
+  margin-bottom: 8px;
+}
+
+.contact {
+  margin: 0 auto;
+}
+
+.contact p {
+  line-height: 1.5;
+  color: var(--c-black);
+  margin-bottom: 5px;
+}
+
+main {
+  padding: var(--floor-padding);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.tour-img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  color: #fff;
+}
+
+.tour-img-22 {
+  background-color: var(--c-red);
+  background-image: url(../assets/tour/lekki.jpg);
+  height: 190px;
+  width: 380px;
+  background-size: cover;
+}
+
+.tour-img-21 {
+  background-color: var(--c-red);
+  background-image: url(../assets/tour/obudu.jpeg);
+  height: 190px;
+  width: 380px;
+  background-size: cover;
+}
+
+.tour-overlay {
+  background-color: var(--c-red);
+  height: inherit;
+  width: inherit;
+  opacity: 0.75;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.tour {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  max-width: 380px;
+}
+
+.about-line {
+  font-weight: 400;
+  max-width: 380px;
+}
+
+.about-line::after {
+  content: "";
+  display: block;
+  height: 1px;
+  width: 32px;
+  background-color: var(--c-red);
+  margin: 8px auto auto auto;
+}
+
+.cc {
+  padding: 24px 48px;
+  box-shadow: 1px 1px 1px 1px;
+}
+
+.ccc p {
+  border-top: 1px solid var(--c-gray);
+  border-bottom: 1px solid var(--c-gray);
+  width: fit-content;
+  margin: 0 auto;
+  font-size: 11px;
+}
+
+.ccc {
+  max-width: 150px;
+}
