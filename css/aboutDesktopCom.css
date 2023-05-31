@@ -10,77 +10,75 @@
   width: 100%;
 }
 
- .para {
-    font-size: 18px;
-    padding: 12px 18px;
-    background-color: #fff;
-    line-height: 1.7;
-  }
+.para {
+  font-size: 18px;
+  padding: 12px 18px;
+  background-color: #fff;
+  line-height: 1.7;
+}
 
- .desktop-header img {
-    height: inherit;
-  }
-  
-  .dh-container {
-    height: inherit;
-    padding-bottom: 10px;
-   
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-end;
-    gap: 10px;
-    max-width: 1440px;
-    margin: 0 auto;
-  }
-  
-  .dh-p {
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-    
-  }
-  .dh-p a {
-    color: var(--c-gray);
-  }
-  
+.desktop-header img {
+  height: inherit;
+}
 
- .campaign {
-    width: 100%;
-    color: var(--c-red);
-  }
-  
-  .campaign a {
-    padding: 12px;
-    border: 3px solid var(--c-red);
-    font-weight: 400;
-  }
- 
- .menu a {
-    color: var(--c-black);
-  }
+.dh-container {
+  height: inherit;
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+  max-width: 1440px;
+  margin: 0 auto;
+}
 
- .greetings {
-    color: var(--c-red);
-    font-size: 32px;
-    font-weight: 400;
-  }
+.dh-p {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
 
-  .bg {
-    height: 85vh;
-    background-image: url(../assets/desktop-bg-img.png);
-  } 
+.dh-p a {
+  color: var(--c-gray);
+}
+
+.campaign {
+  width: 100%;
+  color: var(--c-red);
+}
+
+.campaign a {
+  padding: 12px;
+  border: 3px solid var(--c-red);
+  font-weight: 400;
+}
+
+.menu a {
+  color: var(--c-black);
+}
+
+.greetings {
+  color: var(--c-red);
+  font-size: 32px;
+  font-weight: 400;
+}
+
+.bg {
+  height: 85vh;
+  background-image: url(../assets/desktop-bg-img.png);
+}
 
 .intro {
-    font-size: 40px;
-    font-weight: 900;
-    background-image: url(../assets/bg/text.png);
-    background-size: cover;
-    background-clip: border-box;
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-    max-width: 1200px;
-  }
+  font-size: 40px;
+  font-weight: 900;
+  background-image: url(../assets/bg/text.png);
+  background-size: cover;
+  background-clip: border-box;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  max-width: 1200px;
+}
 
 .shadow {
   box-shadow: 0 0 1px 0;
@@ -106,18 +104,11 @@
   gap: 60px;
 }
 
- .menu {
+.menu {
   display: flex;
   flex-direction: row;
   gap: 36px;
 }
-
-
-.bg {
-  height: 85vh;
-  background-image: url(../assets/desktop-bg-img.png);
-}
-
 
 .fr-head {
   display: flex;
@@ -126,7 +117,6 @@
   max-width: 1440px;
   margin: 0 auto;
   padding: 36px;
-  display: flex;
   flex-direction: column;
   gap: 36px;
   height: inherit;
@@ -225,7 +215,6 @@ main {
 }
 
 .title-desktop {
- 
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -252,6 +241,3 @@ main {
   justify-content: center;
   gap: 96px;
 }
-
-
-
